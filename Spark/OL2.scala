@@ -116,10 +116,7 @@ object OL2 {
     * rho is the augmented Lagrangian parameter.
 
     * alpha is the over-relaxation parameter (typical values for alpha are
-    * between 1.0 and 1.8).
-
-    * More information can be found in the paper linked at:
-    * http://www.stanford.edu/~boyd/papers/distr_opt_stat_learning_admm.html
+    * between 1.0 and 1.8). 
 
     */
   def Ridge (A:BDM[Double],b:BDV[Double],lambda:BDV[Double],rho:Double,alpha:Double): Map[String, Array[Double]] =
