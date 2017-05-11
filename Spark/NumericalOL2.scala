@@ -8,7 +8,7 @@ import org.apache.spark.mllib.linalg.{DenseVector, Vectors, SparseMatrix,Vector}
 import scala.util.control.Breaks
 
 /**
-  * Created by humayoo on 3/28/2017.
+  * Created by xxx on 3/28/2017.
   */
 object NumericalOL2 {
   /****
