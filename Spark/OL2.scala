@@ -117,7 +117,8 @@ object OL2 {
 
     * alpha is the over-relaxation parameter (typical values for alpha are
     * between 1.0 and 1.8). 
-
+    * code is inspired by boyd's lasso example at:
+    * http://www.stanford.edu/~boyd/papers/admm/lasso/lasso_example.html
     */
   def Ridge (A:BDM[Double],b:BDV[Double],lambda:BDV[Double],rho:Double,alpha:Double): Map[String, Array[Double]] =
   {
