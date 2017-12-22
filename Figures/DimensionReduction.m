@@ -1,4 +1,4 @@
-figure('Color', 'white');
+fig=figure('Color', 'white');
 set(gcf,'units','points','position',[0,0,550,350])
 set(gca,'Fontsize',18);
 %clf; 
@@ -30,14 +30,14 @@ plot(OL1data,'b-','MarkerSize', 10, 'LineWidth', 3);
 hold on
 plot(OL2data,'m--','MarkerSize', 10, 'LineWidth', 3);
 hold on
-plot(51,0.01,'g*','MarkerSize', 10, 'LineWidth', 3)
+plot(41,0.01,'g*','MarkerSize', 10, 'LineWidth', 3)
 hold off;
 %xlim([0,50]);
 %set(gca,'YScale','log');
 %set(gcf,'units','points','position',[0,0,750,400])
 set(gca,'XTick',(0:200:2000))
 xlabel('Number of relevant variables','FontSize',18);
-h = ylabel('\textbf{Estimated Coefficients( $$\hat{x}$$ )}','FontSize',18);
+h = ylabel('\textbf{Estimated Coefficients( $$\hat{x}$$ )}','Interpreter','latex','FontSize',18);
 set(h,'unit','character');
 set(h,'interpreter','latex');
 set(gca,'FontSize',18,'FontName','times');
@@ -45,6 +45,6 @@ legend1 = legend('Lasso','OL1','OL2');
 set(legend1,'FontSize',18,'FontName','times');
 title('q = 0.4','FontSize',18);
 set(gca,'Fontsize',18);
-%print('E:\Deep Learning\Research\Paper Writting\graphs\DimensionReduction.png','-dpng','-r900');
-%print('E:\Deep Learning\Research\Paper Writting\graphs\DimensionReduction.eps','-depsc2','-r900');
+print('E:\Deep Learning\Research\Paper Writting\graphs\DimensionReduction.png','-dpng','-r900');
+print('E:\Deep Learning\Research\Paper Writting\graphs\DimensionReduction.eps','-depsc2','-r900');
 
