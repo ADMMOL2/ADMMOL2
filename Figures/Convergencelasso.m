@@ -1,5 +1,5 @@
 %Generate problem data
-data = xlsread('data/convergencedata_lasso.xls');
+data = xlsread('data/convergencedata_lasso_cv.xls');
 iter        = data(:,1);
 r_norm      = data(:,2);
 eps_pri     = data(:,3);
