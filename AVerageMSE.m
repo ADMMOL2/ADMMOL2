@@ -11,7 +11,7 @@ OL2data = load('data/peOL2_q.txt');
 OL12data = load('data/peOL12_q.txt');
 
 
-x = linspace(0,1,10);
+x = linspace(0,1,5);
 plot(x,L1data,'r-.','MarkerSize', 10, 'LineWidth', 3);
 hold on
 plot(x,OL1data,'b-','MarkerSize', 10, 'LineWidth', 3);
@@ -20,8 +20,8 @@ plot(x,OL2data,'g--','MarkerSize', 10, 'LineWidth', 3);
 hold on
 plot(x,OL12data,'m--','MarkerSize', 10, 'LineWidth', 3);
 hold off;
-xlim([0.1,1.0]);
-set(gca,'XTick',(0:0.1:10));
+xlim([0.1,0.5]);
+set(gca,'XTick',(0:0.1:5));
 set(gca,'YScale','log');
 xlabel('q','Fontsize',18); 
 ylabel('Estimated MSE','Fontsize',18);
