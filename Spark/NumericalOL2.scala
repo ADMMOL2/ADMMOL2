@@ -10,6 +10,7 @@ import scala.util.control.Breaks
 /**
   * Created by xxx on 3/28/2017.
   */
+
 object NumericalOL2 {
   /****
     *
