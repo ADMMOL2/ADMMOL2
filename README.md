@@ -13,7 +13,6 @@ and distributed. It is designed to solve the following three problems:
 Where J_λ(x) is the ordered L2-norm, the matrix A and vector b can be defined explicily, x is unknown.
 
 
-
 2.0 Figures
 --------------
 
