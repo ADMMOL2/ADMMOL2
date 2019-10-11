@@ -16,25 +16,5 @@ Where J_λ(x) is the ordered L2-norm, the matrix A and vector b can be defined e
 2.0 Figures
 --------------
 
-All figures are drawn using matlab. There is a figure folder which contains all matlab file for drawing
-figures. Data to draw figures are availabe in data folder which is inside figure folder. Each matlab file
-draw one figure when you run it.
+The Matlab codes above reproduce all Figures of our article.
 
-3.0 Spark
---------------
-ADMM-OL2 is implemented using Scala and spark. Spark folder contains source code of ADMM-OL2 method.
-it contains the following three source code file.
-
-3.1  NumericalOL2.scala
------------------------
-It show the convergence of ADMM-OL2 method.
-
-3.2 OL2.scala
---------------
-It is standalone version of ADMM-OL2 method.
-
-3.3 DistributedOL2.scala
-------------------------
-It is distributed version of ADMM-OL2 method.
-
-data folder contains real colon dataset which is used for experiments.
